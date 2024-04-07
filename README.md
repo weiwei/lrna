@@ -9,4 +9,4 @@ Steps to reproduce:
 3. Comment out the exclusion line from `pnpm-workspace.yaml` and run `pnpm exec lerna list` again.
 4. It reports 2 packages found.
 
-To validate with lerna 7, run `pnpm uninstall lerna` and `pnpm install -w lerna@7`, then repeat step 2 to 4 above. In both cases it will report 2 packages found.
+To validate with lerna 7, run `pnpm install -w lerna@7`, then repeat step 2 to 4 above. In both cases it will report 2 packages found.
