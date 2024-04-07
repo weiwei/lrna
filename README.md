@@ -6,7 +6,7 @@ Happened in version 8.0.1+
 
 Steps to reproduce:
 
-1. Run `pnpm install`
+1. Run `pnpm install`, by default it will install latest version 8.
 2. Run `pnpm exec lerna list`, it will report 0 package found.
 3. Comment out the exclusion line from `pnpm-workspace.yaml` and run `pnpm exec lerna list` again.
 4. It reports 2 packages found.
