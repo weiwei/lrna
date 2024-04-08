@@ -2,7 +2,7 @@
 
 Issue: Lerna 8 doesn't work if pnpm contains an exclusion in `pnpm-workspace.yaml`. For https://github.com/lerna/lerna/issues/3964
 
-Happens in version 8.0.1+. The latest version 7 is good.
+Happens in version 8.0.0+. The latest version 7 is good.
 
 Happens with any exclusion rule, not just the one specified in the repo.
 
