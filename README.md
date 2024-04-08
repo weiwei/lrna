@@ -1,6 +1,6 @@
 # Lerna issue example
 
-Issue: Lerna 8 doesn't work if pnpm contains an exclusion in `pnpm-workspace.yaml`.
+Issue: Lerna 8 doesn't work if pnpm contains an exclusion in `pnpm-workspace.yaml`. For https://github.com/lerna/lerna/issues/3964#issue-2168393761
 
 Happens in version 8.0.1+. The latest version 7 is good.
 
